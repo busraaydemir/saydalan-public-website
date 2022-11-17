@@ -1,0 +1,22 @@
+<div id="main-menu" class="main-menu">
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <li class="menu-item-{{ .Name | lower }}{{ if or ($currentPage.IsMenuCurrent " main" .) (eq
+      $currentPage.RelPermalink .URL) }} active{{ end }}">
+      <a href="{{.URL}}">
+        {{ .Pre }}
+        <span>{{ .Name }}</span>
+      </a>
+    </li>
+    {{end}}
+
+    {{range .Translations }}
+    <li class="d-lg-inline">
+      <a class="btn btn-sm lang-dropdown-button" href="{{.Permalink}}" role="button">
+        {{.Language.LanguageName}}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</div>
