@@ -1,11 +1,11 @@
 {
-  "name": "saydalan-website",
+  "name": "saydalan-public-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/busraaydemir/saydalan-website.git"
+    "url": "git+https://github.com/busraaydemir/saydalan-public-website.git"
   },
   "engines": {
     "node": "14.17.3",
@@ -14,9 +14,9 @@
   "author": "Busra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/busraaydemir/saydalan-website/issues"
+    "url": "https://github.com/busraaydemir/saydalan-public-website/issues"
   },
-  "homepage": "https://github.com/busraaydemir/saydalan-website#readme",
+  "homepage": "https://github.com/busraaydemir/saydalan-public-website#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hugo server"
