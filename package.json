@@ -19,6 +19,6 @@
   "homepage": "https://github.com/busraaydemir/saydalan-public-website#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "hugo server"
+    "start": "node index.js"
   }
 }
