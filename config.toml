@@ -1,0 +1,83 @@
+
+languageCode = "en-us"
+defaultContentLanguage = "tr"
+title = "Saydalan"
+baseURL = "/"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+  en= "En"
+  tr= "Tr"
+
+  [params.logo]
+    mobile = "images/favicon.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo.jpeg"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "Hugo Hero"
+
+  [params.homepage_meta_tags]
+    meta_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_og_title = "Saydalan"
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-hero-theme/master/images/tn.png"
+    meta_og_description = "Hero is a multipurpose Hugo theme with fullscreen hero images and page sections. It contains content types for a business or portfolio site."
+    meta_twitter_card = "summary"
+    meta_twitter_site = "@zerostaticio"
+    meta_twitter_creator = "@zerostaticio"
+
+############################# Languages ############################
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "En"
+    weight = 1
+  [languages.tr]
+    contentDir = "content/tr"
+    languageName = "Tr"
+    weight = 2
+
+[[languages.tr.menu.main]]
+	name = "Ürünler"
+	url = "/urunler/"
+  weight = 1
+
+[[languages.tr.menu.main]]
+  name = "Hakkımızda"
+  url = "/hakkimizda/"
+  weight = 2
+
+[[languages.tr.menu.main]]
+  name = "İletisim"
+  url = "/iletisim/"
+  weight = 3
+
+[[languages.en.menu.main]]
+	name = "Products"
+	url = "/products/"
+  weight = 1
+
+[[languages.en.menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[languages.en.menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 3
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
