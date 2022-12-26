@@ -2,7 +2,7 @@
 title: 'Extratlar'
 id: 'ekstratlar'
 date: 2018-11-18T12:33:46+10:00
-icon: 'services/urunler-7.jpeg'
+icon: 'services/urunler-3.jpeg'
 draft: false
 featured: true
 heroHeading: 'Extratlar'

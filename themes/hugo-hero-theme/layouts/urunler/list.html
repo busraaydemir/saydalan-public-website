@@ -21,8 +21,8 @@
 
 <div class="container pb-6 pt-6 pb-md-10 pt-md-10">
   {{ range $subpages := .Pages.ByWeight }}
-  <div class="row" id="{{.Params.id}}">
-    <h1 class="w-100"> {{.Title}} </h1>
+  <div class="row products-content" id="{{.Params.id}}">
+    <h1 class="products-title"> {{.Title}} </h1>
     <p class="w-100"> {{.Content}} </p>
     
     {{ range $subpages.Pages }}

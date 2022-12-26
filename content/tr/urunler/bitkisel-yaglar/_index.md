@@ -2,7 +2,7 @@
 title: 'Bitkisel Yağlar'
 id: 'bitkisel-yaglar'
 date: 2018-11-18T12:35:46+10:00
-icon: 'services/urunler-5.jpeg'
+icon: 'services/urunler-4.jpeg'
 draft: false
 featured: true
 weight: 2
